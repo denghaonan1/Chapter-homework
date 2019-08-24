@@ -28,11 +28,11 @@ public abstract class Friends {
         this.name = name;
     }
 
-    public abstract void print(Friends f);
+    public abstract void print();
 
-    public abstract void eat(Friends f);
+    public abstract void eat();
 
-    public abstract void movement(Friends f);
+    public abstract void movement();
 
     public String getState() {
         return state;

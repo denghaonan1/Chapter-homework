@@ -10,15 +10,15 @@ public final class John extends Friends {
         super.setState(state);
     }
 
-    public void print(Friends f) {
+    public void print() {
         System.out.println("我叫" + super.getName() + "我来自" + getState());
     }
 
-    public void eat(Friends f) {
+    public void eat() {
         System.out.println("我喜欢吃" + getFood());
     }
 
-    public void movement(Friends f) {
+    public void movement() {
         System.out.println("我喜欢" + getMovement());
     }
 }
